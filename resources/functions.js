@@ -1,33 +1,37 @@
 var createTextStyle = function(feature, resolution, labelText, labelFont,
                                labelFill, placement, bufferColor,
-                               bufferWidth) {
+                               bufferWidth, labelBackgroundFill, labelBackgroundStroke) {
 
     if (feature.hide || !labelText) {
         return; 
     } 
 
-    if (bufferWidth == 0) {
-        var bufferStyle = null;
-    } else {
-        var bufferStyle = new ol.style.Stroke({
-            color: bufferColor,
-            width: bufferWidth
-        })
-    }
+    var bufferStyle = bufferWidth > 0 
+                      ? new ol.style.Stroke({
+                          color: bufferColor,
+                          width: bufferWidth
+                        })
+                      : null;
     
     var textStyle = new ol.style.Text({
         font: labelFont,
         text: labelText,
         textBaseline: "middle",
-        textAlign: "left",
-        offsetX: 8,
-        offsetY: 3,
+        textAlign: "center",
+        offsetX: 0,
+        offsetY: 0,
         placement: placement,
         maxAngle: 0,
         fill: new ol.style.Fill({
-          color: labelFill
+            color: labelFill
         }),
-        stroke: bufferStyle
+        stroke: bufferStyle,
+        backgroundFill: labelBackgroundFill ? new ol.style.Fill({
+            color: labelBackgroundFill
+        }) : null,
+        backgroundStroke: labelBackgroundStroke ? new ol.style.Stroke({
+            color: labelBackgroundStroke
+        }) : null
     });
 
     return textStyle;

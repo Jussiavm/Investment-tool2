@@ -767,78 +767,78 @@ function fnc_project_color(values, context) {
 
 
 function exp_PKS_postinumeroalueet_2023_shp_1rule0_eval_expression(context) {
-    // "Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2" >= 1727 AND "Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2" <= 3148.4
+    // Price >= 1727 AND Price <= 3148.4
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ((feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  >= 1727.0) && (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  <= 3148.4));
+        return ((feature.get('Price')  >= 1727.0) && (feature.get('Price')  <= 3148.4));
     } else {
-        return ((feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  >= 1727.0) && (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  <= 3148.4));
+        return ((feature.get('Price')  >= 1727.0) && (feature.get('Price')  <= 3148.4));
     }
 }
 
 
 function exp_PKS_postinumeroalueet_2023_shp_1rule1_eval_expression(context) {
-    // "Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2" > 3148.4 AND "Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2" <= 4569.8
+    // Price > 3148.4 AND Price <= 4569.8
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ((feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  > 3148.4) && (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  <= 4569.8));
+        return ((feature.get('Price')  > 3148.4) && (feature.get('Price')  <= 4569.8));
     } else {
-        return ((feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  > 3148.4) && (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  <= 4569.8));
+        return ((feature.get('Price')  > 3148.4) && (feature.get('Price')  <= 4569.8));
     }
 }
 
 
 function exp_PKS_postinumeroalueet_2023_shp_1rule2_eval_expression(context) {
-    // "Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2" > 4569.8 AND "Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2" <= 5991.2
+    // Price > 4569.8 AND Price <= 5991.2
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ((feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  > 4569.8) && (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  <= 5991.2));
+        return ((feature.get('Price')  > 4569.8) && (feature.get('Price')  <= 5991.2));
     } else {
-        return ((feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  > 4569.8) && (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  <= 5991.2));
+        return ((feature.get('Price')  > 4569.8) && (feature.get('Price')  <= 5991.2));
     }
 }
 
 
 function exp_PKS_postinumeroalueet_2023_shp_1rule3_eval_expression(context) {
-    // "Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2" > 5991.2 AND "Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2" <= 7412.6
+    // Price > 5991.2 AND Price <= 7412.6
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ((feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  > 5991.2) && (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  <= 7412.6));
+        return ((feature.get('Price')  > 5991.2) && (feature.get('Price')  <= 7412.6));
     } else {
-        return ((feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  > 5991.2) && (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  <= 7412.6));
+        return ((feature.get('Price')  > 5991.2) && (feature.get('Price')  <= 7412.6));
     }
 }
 
 
 function exp_PKS_postinumeroalueet_2023_shp_1rule4_eval_expression(context) {
-    // "Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2" > 7412.6 AND "Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2" <= 8834
+    // Price > 7412.6 AND Price <= 8834
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ((feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  > 7412.6) && (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  <= 8834.0));
+        return ((feature.get('Price')  > 7412.6) && (feature.get('Price')  <= 8834.0));
     } else {
-        return ((feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  > 7412.6) && (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  <= 8834.0));
+        return ((feature.get('Price')  > 7412.6) && (feature.get('Price')  <= 8834.0));
     }
 }
 
 
 function exp_PKS_postinumeroalueet_2023_shp_1rule5_eval_expression(context) {
-    // "Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2" IS NULL
+    // Price IS NULL
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  === null);
+        return (feature.get('Price')  === null);
     } else {
-        return (feature.get('Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2')  === null);
+        return (feature.get('Price')  === null);
     }
 }

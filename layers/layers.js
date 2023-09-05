@@ -29,9 +29,9 @@ var lyr_PKS_postinumeroalueet_2023_shp_1 = new ol.layer.Vector({
 
 lyr_OSMStandard_0.setVisible(true);lyr_PKS_postinumeroalueet_2023_shp_1.setVisible(true);
 var layersList = [lyr_OSMStandard_0,lyr_PKS_postinumeroalueet_2023_shp_1];
-lyr_PKS_postinumeroalueet_2023_shp_1.set('fieldAliases', {'Posno': 'Posno', 'Toimip': 'Toimip', 'Toimip_ru': 'Toimip_ru', 'Nimi': 'Nimi', 'Nimi_Ru': 'Nimi_Ru', 'Kunta': 'Kunta', 'Kunta_nro': 'Kunta_nro', 'Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2': 'Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2', });
-lyr_PKS_postinumeroalueet_2023_shp_1.set('fieldImages', {'Posno': 'TextEdit', 'Toimip': 'TextEdit', 'Toimip_ru': 'TextEdit', 'Nimi': 'TextEdit', 'Nimi_Ru': 'TextEdit', 'Kunta': 'TextEdit', 'Kunta_nro': 'TextEdit', 'Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2': 'Range', });
-lyr_PKS_postinumeroalueet_2023_shp_1.set('fieldLabels', {'Posno': 'no label', 'Toimip': 'no label', 'Toimip_ru': 'no label', 'Nimi': 'no label', 'Nimi_Ru': 'no label', 'Kunta': 'no label', 'Kunta_nro': 'no label', 'Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Rolling 1Y Price per m2': 'no label', });
+lyr_PKS_postinumeroalueet_2023_shp_1.set('fieldAliases', {'Posno': 'Posno', 'Toimip': 'Toimip', 'Toimip_ru': 'Toimip_ru', 'Nimi': 'Nimi', 'Nimi_Ru': 'Nimi_Ru', 'Kunta': 'Kunta', 'Kunta_nro': 'Kunta_nro', 'Price': 'Price', 'Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Price': 'Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Price', });
+lyr_PKS_postinumeroalueet_2023_shp_1.set('fieldImages', {'Posno': 'TextEdit', 'Toimip': 'TextEdit', 'Toimip_ru': 'TextEdit', 'Nimi': 'TextEdit', 'Nimi_Ru': 'TextEdit', 'Kunta': 'TextEdit', 'Kunta_nro': 'TextEdit', 'Price': 'Range', 'Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Price': 'Range', });
+lyr_PKS_postinumeroalueet_2023_shp_1.set('fieldLabels', {'Posno': 'no label', 'Toimip': 'no label', 'Toimip_ru': 'no label', 'Nimi': 'no label', 'Nimi_Ru': 'no label', 'Kunta': 'no label', 'Kunta_nro': 'no label', 'Price': 'no label', 'Sijoitusasuntotyökalu - Rolling 1Y Price_m2 Data (2)_Price': 'no label', });
 lyr_PKS_postinumeroalueet_2023_shp_1.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
